@@ -1,0 +1,12 @@
+{
+    "name": "facu3/primer_parcial_prog3",
+    "authors": [
+        {
+            "name": "facundo94",
+            "email": "facu.31@live.com"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    }
+}
