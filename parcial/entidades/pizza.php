@@ -15,9 +15,4 @@
             $this->foto = $foto;
         }
     }
-
-    function Show($user){
-        return '{"tipo":' . $this->tipo . ', "precio":' . $this->precio . ', "sabor":' . $this->sabor . ', "foto":' . $this->foto . 
-            $user == 'encargado' ? ', "tipo":' . $this->tipo : '' . ' }';
-    }
 ?>
